@@ -14,6 +14,3 @@ run `go get github.com/holopollock/watchlist-picker`
 
 To use run `watchlist-picker USERNAME`
 
-#### Notes
-
-As the letterboxd API is private this scrapes the site so by the nature of webscraping is fairly slow (ex. 5 sec for 57 film watchlist) and aswell is very fragile and though I will try to keep up to date I can't make any promises that it will work. PRs welcome
