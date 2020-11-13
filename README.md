@@ -17,7 +17,7 @@ A command-line tool to pick a random movie off your Letterboxd watchlist. The to
 To install with Go, run: 
 
 ```
-go get github.com/holopollock/watchlist-picker`
+go get github.com/holopollock/watchlist-picker
 ```
 
 If you do not have Go intalled, clone this repository and run the included `build.sh` script.
