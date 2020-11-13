@@ -1,16 +1,36 @@
-# random-letterboxd
+<a href="https://github.com/GoodbyteCo/Letterboxd-Watchlist-Picker">
+  <img width="230" alt="Watchlist Picker Development" src="public/dev-logo.png">
+</a>
 
-A Command line tool to pick a movie for you to watch from your letterboxd watch list
+<br><br><br>
 
-### Install
+# Command-line Watchlist Picker
+
+[[Installation](#installation)] [[Usage](#usage)]
+
+A simple website that gives you a random film off your watchlist (or any list). The site is built with Vue, and deployed at [watchlistpicker.com](https://watchlistpicer.com) via Vercel. See also, the [Watchlist Picker backend](https://github.com/GoodbyteCo/Watchlist-Picker-Backend) and [CLI verion](https://github.com/HoloPollock/watchlist-picker).
+
+A command-line tool to pick a random movie off your Letterboxd watchlist. The tool is also available as a more feature-rich web app, at [watchlistpicker.com](https://watchlistpicker.com). The source-code for the web app can be found in the [Goodbyte Watchlist Picker repository](https://github.com/GoodbyteCo/Letterboxd-Watchlist-Picker), and the backend in the [backend repository](https://github.com/GoodbyteCo/Watchlist-Picker-Backend).
+
+## Installation
 
 #### Without Go
 To install without go clone and then run the build.sh script
 
-#### With Go
-run `go get github.com/holopollock/watchlist-picker`
+To install with Go, run: 
 
-### Usage
+```
+go get github.com/holopollock/watchlist-picker`
+```
 
-To use run `watchlist-picker USERNAME`
+If you do not have Go intalled, clone this repository and run the included `build.sh` script.
 
+## Usage
+
+To use run:
+
+```
+watchlist-picker <USERNAME>
+```
+
+Where `<USERNAME>` is your Letterboxd username. For example, `watchlist-picker holopollock` will return a film off of Holopollock's watchlist.
