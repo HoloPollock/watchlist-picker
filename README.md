@@ -1,5 +1,5 @@
-<a href="https://github.com/GoodbyteCo/Letterboxd-Watchlist-Picker">
-  <img width="230" alt="Watchlist Picker Development" src="public/dev-logo.png">
+<a href="https://github.com/holopollock/watchlist-picker">
+  <img width="230" alt="Watchlist Picker Development" src="dev-logo.png">
 </a>
 
 <br><br><br>
