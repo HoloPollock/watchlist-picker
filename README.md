@@ -14,9 +14,6 @@ A command-line tool to pick a random movie off your Letterboxd watchlist. The to
 
 ## Installation
 
-#### Without Go
-To install without go clone and then run the build.sh script
-
 To install with Go, run: 
 
 ```
